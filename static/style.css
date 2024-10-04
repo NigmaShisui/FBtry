@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.fb-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.fb-logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fb-logo h1 {
+    color: #1877f2;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.fb-logo p {
+    font-size: 18px;
+    color: #8d949e;
+}
+
+.fb-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.fb-form input {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.fb-form button {
+    padding: 15px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.fb-form button:hover {
+    background-color: #165cbb;
+}
+
+.fb-form a {
+    color: #1877f2;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fb-form a:hover {
+    text-decoration: underline;
+}
+
+.fb-form .separator {
+    text-align: center;
+    margin: 20px 0;
+    color: #8d949e;
+}
